@@ -13,7 +13,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 👇 AJOUT ICI
       - name: Set up JDK 8
         uses: actions/setup-java@v2
         with:
